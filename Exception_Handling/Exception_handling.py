@@ -20,7 +20,7 @@ try:
     print('filel is open')
 except Exception as result:
     print(result)
-else:
+else:  # 没有异常的时候执行它
     print("no Exception")
-finally:
+finally:  # 即使没有异常也要执行
     filel.close()
