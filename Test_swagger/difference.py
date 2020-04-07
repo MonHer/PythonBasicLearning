@@ -6,7 +6,7 @@
 # @desc    : 对比接口excel， json更新
 
 import xlrd, time, difflib, sys, os
-from Test_swagger.logger import Log, report_path
+from Test_swagger.logger import Log
 
 log = Log()
 

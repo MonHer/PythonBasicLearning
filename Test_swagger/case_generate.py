@@ -10,9 +10,9 @@ sys.path.append('D:\Interface_framework_Beauty')
 
 import requests
 import os
-from Test_swagger.writeExcel import Write_excel # 写入excel模块
+from Test_swagger.writeExcel import Write_excel  # 写入excel模块
 from Test_swagger.logger import Log  # 打印日志模块
-from Test_swagger.processingJson import write_data # 写入json文件模块
+from Test_swagger.processingJson import write_data  # 写入json文件模块
 from Test_swagger.difference import diff_excel, diff_json
 from Test_swagger import report_path
 
@@ -169,7 +169,8 @@ def diff_file():
 
 if __name__ == '__main__':
     url = read_config.generate_url.split(',')
+    # url = "gateway.xinkangzaixian.cn"
     for i in url:
-        # url_json = i + '/v2/api-docs?group=sign-api'  # json swagger url地址
+        url_json = i + '/api/user/code/image'  # json swagger url地址
         AnalysisJson(i).retrieve_data()
     diff_file()

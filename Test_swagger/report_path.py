@@ -15,7 +15,7 @@ import os
 class ReadConfig:
 
     # 初始化函数：实例化conf对象，读取传入的配置文件
-    def __init__(self):
+    def __init__(self, contants):
         self.conf = configparser.ConfigParser()
         file = os.path.join(contants.conf_dir,'global.conf')
         self.conf.read(file)

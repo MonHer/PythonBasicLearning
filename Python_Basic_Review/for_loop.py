@@ -18,7 +18,7 @@ lists = ["apple", "zip", "banana", "peach"]
 for item in lists:
     print("我今天吃了"+item)
 
-# 列表翻转
+# 列表翻转排序
 print("**********")
 print(list(reversed(lists)))
 print(list(sorted(lists)))

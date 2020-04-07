@@ -10,7 +10,7 @@ def while_demo():
     odd = []
     while len(numbers):
         number = numbers.pop()
-        if (number % 2 == 0):
+        if number % 2 == 0:
             even.append(number)
         else:
             odd.append(number)
@@ -18,3 +18,4 @@ def while_demo():
 
 
 print(while_demo())
+print(type(while_demo()))

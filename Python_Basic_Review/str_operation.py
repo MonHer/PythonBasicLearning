@@ -14,7 +14,6 @@ print(str.capitalize())
 print(str.encode("gb2312"))
 print(str.find("n"))
 
-
 print(str)  # 输出字符串
 print(str[0:-1])  # 输出第一个到倒数第二个的所有字符（-1代表最后一个，左闭右开）
 print(str[0])  # 输出字符串第一个字符
@@ -28,13 +27,15 @@ b = "20"
 print(b.isdecimal())
 print(str.upper())
 print(str.title())
+
+# 更改字符串
 str0 = 'python 蟒蛇'
 print((str0.replace(str0[0:6], "java".upper())))
-print(str*4)
+print(str * 4)
 
 s1 = "-"
 s2 = ""
-seq = ("l", "i", "n", "d", "a") # 字符串序列
+seq = ("l", "i", "n", "d", "a")  # 字符串序列
 print(s1.join(seq))
 print(s2.join(seq))
 
