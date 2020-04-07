@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #@Pjname ;PythonBasicLearning
 #@Time   :2020/03/30/22:40
-#@Author :Jiuyi
+#@Author :Yuye
 #@File   :Input_and_output.py
 
 # 输入函数input()

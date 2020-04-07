@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #@Pjname ;PythonBasicLearning
 #@Time   :2020/03/31/00:00
-#@Author :Jiuyi
+#@Author :Yuye
 #@File   :While_loop.py
 
 # while 语句

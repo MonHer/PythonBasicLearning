@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/04/06/03:11
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :Data_and_conversion.py
 
 my_str = "I love Python"

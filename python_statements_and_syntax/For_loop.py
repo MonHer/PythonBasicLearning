@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #@Pjname ;PythonBasicLearning
 #@Time   :2020/03/31/00:12
-#@Author :Jiuyi
+#@Author :Yuye
 #@File   :For_loop.py
 
 # for循环语句

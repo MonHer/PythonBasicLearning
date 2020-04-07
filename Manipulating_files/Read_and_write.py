@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/04/02/23:46
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :Read_and_write.py
 
 import time

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/04/01/09:55
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :Class_characteristics.py
 
 # 类的三大特性学习

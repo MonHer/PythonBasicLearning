@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/03/31/22:12
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :Function_learning.py
 
 # 定义函数

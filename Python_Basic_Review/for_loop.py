@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/04/06/03:46
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :for_loop.py
 
 from collections import Counter

@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-#@Pjname ;PythonBasicLearning
-#@Time   :2020/03/30/00:14
-#@Author :Jiuyi
-#@File   :python_variable_string.py
+# @Pjname ;PythonBasicLearning
+# @Time   :2020/03/30/00:14
+# @Author :Yuye
+# @File   :python_variable_string.py
 
-#字符串
+# 字符串
 str1 = 'abc'
 print(str1)
 
-str2  = "abc"
+str2 = "abc"
 print(str2)
 
-#单引号和双引号的区别
+# 单引号和双引号的区别
 # str3 = 'a'bc' 报错示范
 str3 = "a'bc"
 print(str3)
@@ -32,25 +32,22 @@ str4 = """
 """
 print(str4)
 
-#字符串索引
-#正向
+# 字符串索引
+# 正向
 print(str4[0])
 print(str4[3])
-#反向
+# 反向
 print(str4[-0])
 print(str4[-3])
 
-#切片
+# 切片
 print(str4[0:4])
 print(str4[3:15])
 
-#更改字符串
-#将字符串强制转为列表
+# 更改字符串
+# 将字符串强制转为列表
 list1 = list(str4)
 list1[0] = "硪"
 print(list1)
 str4 = ''.join(list1)
 print(str4)
-
-
-

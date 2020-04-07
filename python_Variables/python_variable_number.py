@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-#@Pjname ;PythonBasicLearning
-#@Time   :2020/03/30/00:12
-#@Author :Jiuyi
-#@File   :python_variable_number.py
+# @Pjname ;PythonBasicLearning
+# @Time   :2020/03/30/00:12
+# @Author :Yuye
+# @File   :python_variable_number.py
 
 # 数字number
-#int
+# int
 num1 = 2
 num2 = 0b101
 num8 = 0o24
@@ -26,7 +26,7 @@ print(b_var1)
 
 
 # complex
-c_num = complex(3,4)
+c_num = complex(3, 4)
 print(c_num)
 
 # 查看数据类型
@@ -38,23 +38,20 @@ a = 5
 b = 2
 
 # 算术运算符
-print(a+b)
-print(a*b)
-print(a**b)
-print(a/b)
-print(a//b) #取整
-print(a%b) #取余
-
+print(a + b)
+print(a * b)
+print(a ** b)
+print(a / b)
+print(a // b)  # 取整
+print(a % b)  # 取余
 
 # 比较运算符
-print(a>b)
-print(a<=b)
+print(a > b)
+print(a <= b)
 
 # 逻辑运算符
-print((a>b) and (a<b))
-print((a>b) or (a<b))
-
-
+print((a > b) and (a < b))
+print((a > b) or (a < b))
 
 # 变量命名规则
 # 1.变量名通常由字母,数字,下划线组成;

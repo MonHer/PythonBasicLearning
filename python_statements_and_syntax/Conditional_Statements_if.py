@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #@Pjname ;PythonBasicLearning
 #@Time   :2020/03/30/22:53
-#@Author :Jiuyi
+#@Author :Yuye
 #@File   :Conditional_Statements_if.py
 
 #条件判断语句if

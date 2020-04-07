@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/04/06/03:39
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :Process_control.py
 
 print("请选择你今天要吃啥")

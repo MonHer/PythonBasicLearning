@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/03/31/23:50
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :menu_oop.py
 
 # 定义一个类

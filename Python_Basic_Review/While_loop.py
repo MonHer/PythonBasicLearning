@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/04/06/04:06
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :While_loop.py
 
 def while_demo():

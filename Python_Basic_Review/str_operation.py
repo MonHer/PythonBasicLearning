@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/04/06/04:20
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :str_operation.py
 
 # 关于字符串的操作
@@ -13,6 +13,8 @@ print(str.find("o"))
 print(str.capitalize())
 print(str.encode("gb2312"))
 print(str.find("n"))
+
+
 print(str)  # 输出字符串
 print(str[0:-1])  # 输出第一个到倒数第二个的所有字符（-1代表最后一个，左闭右开）
 print(str[0])  # 输出字符串第一个字符

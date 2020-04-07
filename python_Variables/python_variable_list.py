@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-#@Pjname ;PythonBasicLearning
-#@Time   :2020/03/30/00:32
-#@Author :Jiuyi
-#@File   :python_variable_list.py
+# @Pjname ;PythonBasicLearning
+# @Time   :2020/03/30/00:32
+# @Author :Yuye
+# @File   :python_variable_list.py
 
-#创建列表
-fruits = ["apple","pear","grape","cherry"]
-l2 = [1,"520",8.9,"abc"]
+# 创建列表
+fruits = ["apple", "pear", "grape", "cherry"]
+l2 = [1, "520", 8.9, "abc"]
 
 # 访问列表
 print(fruits[0])
@@ -18,4 +18,3 @@ for str in fruits:
 
 for var in l2:
     print(var)
-

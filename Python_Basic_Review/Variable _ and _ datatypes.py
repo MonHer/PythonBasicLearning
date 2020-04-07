@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Pjname ;PythonBasicLearning
 # @Time   :2020/04/06/02:38
-# @Author :Jiuyi
+# @Author :Yuye
 # @File   :Variable _ and _ datatypes.py
 
 """ 定义变量 """

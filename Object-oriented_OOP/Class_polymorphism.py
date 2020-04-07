@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #@Pjname ;PythonBasicLearning
 #@Time   :2020/04/01/16:47
-#@Author :Jiuyi
+#@Author :Yuye
 #@File   :Class_polymorphism.py
 
 class Animall(object):

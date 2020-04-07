@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #@Pjname ;PythonBasicLearning
 #@Time   :2020/03/31/23:09
-#@Author :Jiuyi
+#@Author :Yuye
 #@File   :make.py
 
 def make (size, *tooings):

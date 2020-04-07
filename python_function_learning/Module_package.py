@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #@Pjname ;PythonBasicLearning
 #@Time   :2020/03/31/22:45
-#@Author :Jiuyi
+#@Author :Yuye
 #@File   :Module_package.py
 
 # 模块and包
@@ -22,9 +22,9 @@
 
 
 # 安装模块
-'''
+"""
 pip install 模块名称
-'''
+"""
 
 
 
