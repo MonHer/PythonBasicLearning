@@ -9,11 +9,14 @@
 # 封装
 class Animal(object):
     eyes = int(2)
+
     def __init__(self, kind, name):
         self.kind = kind
         self.name = name
+
     def run(self):
         print(self.name + '说：'"星空不问赶路人,时光不负有心人")
+
 
 # 继承和修改类
 class Cat(Animal):
@@ -22,9 +25,12 @@ class Cat(Animal):
 
     def run(self):
         print(self.name + '说：'"将来的你一定会感谢你今天的努力的")
+
+
 class Dog(Animal):
     def run(self):
         print(self.name + '说：'"明天不上班")
+
 
 # cat = Cat("cat", "nibaba")
 # cat.run()

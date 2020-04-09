@@ -11,6 +11,7 @@ ages = {
 }
 print(ages.get("linda", 88))
 ages["dalu"] = 33
+print("-------------")
 ages["yujian"] = 55
 print(ages)
 del ages['leimeng']

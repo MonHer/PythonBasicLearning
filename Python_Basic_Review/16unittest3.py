@@ -4,6 +4,7 @@
 # @Author : Yuye
 # @File   : 16unittest3.py
 
+import logging
 import unittest
 import requests
 
@@ -22,12 +23,14 @@ class TestClass(unittest.TestCase):
     def test_first(self):
         print("这是测试方法1")
         res = requests.get('http://www.baidu.com')
-        print(res.text)
+        logging.StreamHandler(res.text)
+        # print(res.text)
 
     def test_second(self):
         print("这是测试方法2")
         res = requests.get('https://www.baidu.com/s?wd=python')
-        print(res.text)
+        logging.StreamHandler(res.text)
+        # print(res.text)
 
     @classmethod
     def tearDownClass(cls):

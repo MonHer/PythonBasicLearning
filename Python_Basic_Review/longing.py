@@ -4,8 +4,12 @@
 # @Author : Yuye
 # @File   : longing.py
 
+import time
 import logging
 
+log_time = time.strftime('%Y%m%d%H%M%S',time.localtime())
+log_time = str(log_time)
+print(log_time)
 
 # 创建一个logger
 logger = logging.getLogger('mylogger')
@@ -16,7 +20,6 @@ fh = logging.FileHandler('test.log')
 
 # 再创建一个handler，用于输出到控制台
 ch = logging.StreamHandler()
-
 # 定义handler的输出格式
 formatter = logging.Formatter('[%(asctime)s][%(filename)s][line: %(lineno)d][%(levelname)s] ## %(message)s')
 fh.setFormatter(formatter)

@@ -14,7 +14,9 @@ print(hello_func('hi', 'tom'))
 
 def student_info(*args, **kwargs):
     print(args)
+    print(type(args))
     print(kwargs)
+    print(type(kwargs))
 
 
 courses = ['python', 'java']
