@@ -4,3 +4,10 @@
 # @Author : Yuye
 # @File   : Test.py
 
+
+from selenium import webdriver
+
+url = 'http://www.baidu.com'
+
+driver = webdriver.chrome()
+driver.get(url)
