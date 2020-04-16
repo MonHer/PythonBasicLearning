@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+# @Pjname ; PythonBasicLearning
+# @Time   : 2020/04/16/15:59
+# @Author : Yuye
+# @File   : test_fixture.py
+
+import pytest
+
+@pytest.fixture(scope="module", autouse=True)
+def open_browser():
+    print("打开浏览器")
+
+    yield
+
+    print('执行teardown')
+    print('最后关闭浏览器')
+
+def test_soso(login):
+    print('case1: 登际后执行搜索')
+
+
+def test_cakan():
+    print('case2:不登陆就看')
+
+
+def test_cart(login):
+    print('case3,登陆，加购物车')
+
+
+if __name__ == '__main__':
+    pytest.main(['-s', 'test_fixture.py'])
